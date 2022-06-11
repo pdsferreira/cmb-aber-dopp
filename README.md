@@ -1,8 +1,5 @@
 # cmb-aber-dopp (version 0.2)
 
-## Edit 14/02/22
-The old wrong noise simulations pipeline was removed.
-
 ## Edit 14/04/21: 
 * Addition of CCP alternative directly on harmonic space
 * Addition of realistic and crossed expected error function with examples (forecasts).
