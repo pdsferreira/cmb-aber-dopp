@@ -22,6 +22,7 @@ cl_camb_py[0] = 0
 
 calplanck = 1.000442**2
 
+# planck 2018 data
 dl_planck_dat = np.loadtxt('COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt')
 
 cl_planck_TT = ((2*np.pi*np.append(np.array([0,0]),dl_planck_dat[:,1])[0:lmax+1]/(np.arange(lmax+1)*(np.arange(1,lmax+2))))/(10**12))/calplanck
